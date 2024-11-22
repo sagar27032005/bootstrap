@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./new/logo.png">
+    <title>Spotify – Download for Desktop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="side_bar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="">home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="">search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option" >
+                        <img src="./new/library_icon.png" >
+                        <a href="#">Your library</a>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box" style="height: 8rem;">
+                        <p class="box-p1">Creat Your Playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Creat Playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episods</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main_content">
+           <div class="sticky-nav">
+            <div class="sticky-nav-icons">
+                <img src="./new/backward_icon.png" >
+                <img src="./new/forward_icon.png" class="hide" >
+            </div>
+           <div class="sticky-nav-options">
+            <button class="badge nav-item hide">Explore Premium</button>
+            <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+            <i class="fa-regular fa-user nav-item"></i>
+           </div>
+        </div>
+
+         <h2>Recently Played</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./new/card1img.jpeg" class="card-img">
+                <p class="card-title">Top 50-Global</p>
+                 <p class="card-info">Your daily updates of most played...</p>
+            </div>
+        </div>
+
+        <h2>Trending now near you</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./new/card2img.jpeg" class="card-img">
+                <p class="card-title">Top 50-Global</p>
+                 <p class="card-info">Your daily updates of most played...</p>
+            </div>
+            <div class="card">
+                <img src="./new/card3img.jpeg" class="card-img">
+                <p class="card-title">Top 50-Global</p>
+                 <p class="card-info">Your daily updates of most played...</p>
+            </div>
+            <div class="card">
+                <img src="./new/card4img.jpeg" class="card-img">
+                <p class="card-title">Top 50-Global</p>
+                 <p class="card-info">Your daily updates of most played...</p>
+            </div>
+        </div> 
+
+        <h2>Featured Charts</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./new/card5img.jpeg" class="card-img">
+                <p class="card-title">Top 50-Global</p>
+                 <p class="card-info">Your daily updates of most played...</p>
+            </div>
+            <div class="card">
+                <img src="./new/card6img.jpeg" class="card-img">
+                <p class="card-title">Top 50-Global</p>
+                 <p class="card-info">Your daily updates of most played...</p>
+            </div>
+            <div class="card">
+                <img src="./new/card1img.jpeg" class="card-img">
+                <p class="card-title">Top 50-Global</p>
+                 <p class="card-info">Your daily updates of most played...</p>
+            </div>
+        </div>
+
+       <div class="footer">
+        <div class="line"></div>
+       </div>
+        
+    </div>
+
+        <div class="music_player">
+           <div class="album">
+                <img src="./new/card3img.jpeg" height="100%" width="50px" style="margin-top: 10px;margin-right: 15px;" >
+                <p style="width: fit-content;font-size: small;margin-bottom: 20px;">Dilgit <br> singer </p>
+                <svg style="margin-top:15px ; margin-left:3px"  xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+                <svg style="margin-top:15px ; margin-left:3px" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M80-520v-80h144L52-772l56-56 172 172v-144h80v280H80Zm80 360q-33 0-56.5-23.5T80-240v-200h80v200h320v80H160Zm640-280v-280H440v-80h360q33 0 56.5 23.5T880-720v280h-80ZM560-160v-200h320v200H560Z"/></svg>    
+            </div>
+            
+           <div class="player">
+            <div class="player-controls">
+            <img src="./new/player_icon1.png" class="player-control-icon">
+            <img src="./new/player_icon2.png" class="player-control-icon">
+            <img src="./new/player_icon3.png" class="player-control-icon" style="opacity: 1;height: 1.75rem;">
+            <img src="./new/player_icon4.png" class="player-control-icon">
+            <img src="./new/player_icon5.png" class="player-control-icon">
+            </div>
+            <div class="playback-bar">
+               <span class="curr-time">00:00</span>
+             <input type="range" min="0" max="100" class="progress-bar">
+               <span class="total-time">3:33</span>
+            </div>
+           </div>
+           <div class="controls" style="display: flex; justify-content: space-between;">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M640-80q-67 0-101.5-22.5T480-150q-19-20-36.5-35T399-200q-45 0-100-15.5t-103.5-51Q147-302 114-359T80-499q-2-167 82.5-274T399-880q71 0 120 20.5t84.5 51.5q35.5 31 60 68.5T710-667q12 20 24 36.5t26 30.5q60 60 90 105t30 136q0 120-74.5 199.5T640-80Zm0-80q57 0 108.5-56.5T800-359q0-66-19.5-97T704-544q-21-20-37.5-44.5T633-639q-41-65-87-113t-147-48q-129 0-185 92.5T160-500q1 67 29 110t66.5 67.5Q294-298 334-289t65 9q51 0 82 24.5t51 45.5q22 23 42.5 36.5T640-160ZM480-340q58 0 99-41t41-99q0-58-41-99t-99-41q-58 0-99 41t-41 99q0 58 41 99t99 41Zm-1-140Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-660q-29 0-49.5-20.5T410-730q0-29 20.5-49.5T480-800q29 0 49.5 20.5T550-730q0 29-20.5 49.5T480-660Zm-80 500v-160h-80l95-255q8-20 25.5-32.5T480-620q22 0 39.5 12.5T545-575l95 255h-80v160H400Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M504-425Zm20 385H420l20-12.5q20-12.5 43.5-28t43.5-28l20-12.5q81-6 149.5-49T805-285q-86-8-163-43.5T504-425q-61-61-97-138t-43-163q-77 43-120.5 118.5T200-444v12l-12 5.5q-12 5.5-26.5 11.5T135-403.5l-12 5.5q-2-11-2.5-23t-.5-23q0-146 93-257.5T450-840q-18 99 11 193.5T561-481q71 71 165.5 100T920-370q-26 144-138 237T524-40Zm-284-80h180q25 0 42.5-17.5T480-180q0-25-17-42.5T422-240h-52l-20-48q-14-33-44-52.5T240-360q-50 0-85 34.5T120-240q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T40-240q0-83 58.5-141.5T240-440q60 0 109.5 32.5T423-320q57 2 97 42.5t40 97.5q0 58-41 99t-99 41H240Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M280-200q-39-10-79.5-15t-80.5-5H80v-80h40q40 0 80.5-5t79.5-15v120Zm40 0v-120h560v120H320Zm100-40q8 0 14-6t6-14q0-8-6-14t-14-6q-8 0-14 6t-6 14q0 8 6 14t14 6Zm300-120v-52q0-39-23-59.5T642-492h-62q-56 0-95-39t-39-95q0-56 39-95t95-39v60q-30 0-52 21t-22 53q0 32 22 53t52 21h62q56 0 97 36t41 90v66h-60Zm100 0v-90q0-66-46-114t-114-48v-60q30 0 52-22t22-52q0-30-22-52t-52-22v-60q56 0 95 39t39 95q0 29-11 52.5T754-650q56 26 91 80t35 120v90h-60Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M280-360v-240h160l200-200v640L440-360H280Zm80-80h114l86 86v-252l-86 86H360v80Zm100-40Z"/></svg>
+            <input type="range" min="0" max="100"> 
+        </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
